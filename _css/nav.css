@@ -1,0 +1,31 @@
+.navbar>nav#nav {
+    background-color: #0c0c0c;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    align-items: center;
+}
+
+.navbar>nav#nav>ul {
+    padding: 10px;
+
+}
+
+.navbar>nav#nav>ul>li {
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar>nav#nav>ul>li>a {
+    font-family: "sttime", Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar>nav#nav>ul>li>a:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}

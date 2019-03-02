@@ -1,0 +1,65 @@
+@media screen and (max-width: 300px) {
+    header#inicio {
+        background-image: url(../_img/sla.png);
+        background-size: 995px;
+        background-attachment: fixed;
+    }
+    header#inicio>a.link>img#logo {
+        max-width: 250px;
+        min-width: 200px;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+    .main {
+        font-size: 22px;
+    }
+    .slogan {
+        margin-top: -10px;
+        font-size: 13px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .navbar {
+        text-align: center;
+    }
+    .navbar>nav#nav>ul {
+        text-align: center;
+    }
+    .navbar>nav#nav>ul>li {
+        display: flex;
+        flex-direction: column;
+    }
+    .link-navbuttom {
+        color: white;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        border-radius: 10px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-color: rgb(255, 255, 255);
+        border: 1px;
+    }
+    
+    .link-navbuttom:hover {
+        color: black;
+        text-decoration: underline;
+        background-color: white;
+    }
+    .post {
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        min-width: 250px;
+        max-width: 260px;
+        margin: 20px;
+    }
+
+    .img-post {
+        min-width: 200px;
+        max-width: 210px;
+        align-content: center;
+        align-items: center;
+    }
+    
+}

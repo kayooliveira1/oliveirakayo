@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+header {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../_img/sla.png);
+    background-size: cover ;
+    background-attachment: scroll;
+}
+
+header>a>img#logo {
+    margin-top: 5px;
+}
+
+.main {
+    font-family: 'kimball', Arial, Helvetica, sans-serif;
+    font-style: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.slogan {
+    margin-top: -20px;
+    font-family: 'kimball', Arial, Helvetica, sans-serif;
+    font-style: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.link {
+    color: rgb(175, 248, 132);
+    text-decoration: none;
+    font-family: "kimball", Arial, Helvetica, sans-serif;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 0, 0.6);
+}
+
+.link-post {
+    text-decoration: none;
+    color: rgb(108, 217, 241);
+}
+
+.link-post:hover {
+    text-decoration: underline;
+    color: rgba(108, 217, 241, 0.6);
+}
+
+.link-navbuttom {
+    background-color: #00000099;
+    color: white;
+    font-family: 'kimball', arial, helvetica, sans-serif;
+    padding: 11px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-radius: 10px;
+    display: block;
+    float: center;
+    margin-bottom: -20px;
+}
+
+.link-navbuttom:hover {
+    background-color: #00000080;
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 0.5s;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 50px;
+
+}
+
+/* Post Styles */
+.post {
+    align-content: left;
+    align-items: left;
+    background-color: #333333;
+    width: 600px;
+    float: right;
+}
+
+.post-title {
+    color: white;
+    font-family: 'kimball', arial, helvetica, sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+.post-info {
+    color: #b8b8b8;
+}
+
+.website-content {
+    background-color: #cecece;
+    margin-top: 20px;
+}
+
+.material-icons {
+    font-size: 5px;
+}

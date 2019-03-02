@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'adv';
+	src: url('../_fonts/advscript.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'kimball';
+	src: url('../_fonts/kimball.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'casa';
+	src: url('../_fonts/casa.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'sttime';
+	src: url('../_fonts/stenciltime.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'coralpf';
+	src: url('../_fonts/coralpf.otf');
+	font-weight: normal;
+	font-style: normal;
+}
